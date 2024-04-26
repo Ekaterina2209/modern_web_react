@@ -3,8 +3,48 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
+import ErrorPage from './error-page.jsx'
+
+import About from './labs/lab7/About.jsx'
+
+import Lab1 from './labs/lab1/Lab1.jsx'
+import Lab2 from './labs/lab2/Lab2.jsx'
+import Lab3 from './labs/lab3/Lab3.jsx'
+
+import {
+    createBrowserRouter,
+    RouterProvider,
+} from "react-router-dom";
+
+
+const router = createBrowserRouter([
+    {
+        path: '',
+        element: <App />,
+        errorElement: <ErrorPage></ErrorPage>,
+        children : [
+            {
+                path: '/1',
+                element: <Lab1></Lab1>
+            },
+            {
+                path: '/2',
+                element: <Lab2></Lab2>
+            },
+            { 
+                path: '/3',
+                element: <Lab3></Lab3>
+            },
+            {
+                path: '/about',
+                element: <About></About>
+            }
+        ],
+    }
+]);
+
 ReactDOM.createRoot(document.getElementById('root')).render(
-  
-    <App />
-  
+    <RouterProvider router={router}>
+        <App />
+    </RouterProvider>
 )

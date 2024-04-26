@@ -5,6 +5,7 @@ import MyButton from './labs/lab2/MyButton';
 import LongMenu from './Menu/Menu';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
+import { Outlet } from 'react-router';
 
 function PageTemplate() {
   return (
@@ -13,11 +14,13 @@ function PageTemplate() {
 
       </Header>
       <Navigation />
-      <Container>
-        <h1>Привет!</h1>
-        <MyButton onClick={() => alert('Кнопка была нажата')}>Нажми меня</MyButton>
-      </Container>
+
       <LongMenu></LongMenu>
+      
+      <Outlet>
+
+      </Outlet>
+
       <Footer>
 
       </Footer>

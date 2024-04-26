@@ -2,8 +2,6 @@ import * as React from 'react';
 import './index.css'
 import './App.css'
 
-
-
 export default function Types() {
     return (
         <Box sx={{ width: '100%', maxWidth: 750 }}>

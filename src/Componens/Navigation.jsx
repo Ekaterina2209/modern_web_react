@@ -1,12 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
   return (
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><Link to='/'>Домой</Link></li>
+        <li><Link to='/about'>Об авторе</Link></li>
       </ul>
     </nav>
   );
