@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import PageTemplate from './PageTemplate'
 import MyButton from './labs/lab2/MyButton'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [count, setCount] = useState(0)

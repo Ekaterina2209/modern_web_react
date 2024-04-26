@@ -1,7 +1,14 @@
-function Lab4() {
-    return (
-        <h3>Я лабораторная 4</h3>
-    )
+import React from 'react';
+import { useColor } from './ColorContext';
+
+function ColorChangingButton() {
+  const { toggleColor } = useColor();
+
+  return (
+    <div>
+      <button onClick={toggleColor}>Изменить цвет</button>
+    </div>
+  );
 }
 
-export default Lab4
+export default ColorChangingButton;
