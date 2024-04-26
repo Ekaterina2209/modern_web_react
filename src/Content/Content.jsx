@@ -1,14 +1,7 @@
 import * as React from 'react';
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import PageTemplate from './PageTemplate'
-import MyButton from './labs/lab2/MyButton'
-import Menu from './Menu';
-import {Fragment} from 'react';
+
 
 
 export default function Types() {
