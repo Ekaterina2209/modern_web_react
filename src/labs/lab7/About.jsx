@@ -1,6 +1,6 @@
 function About() {
     return(
-        <h1>Я Катя!</h1>
+        <h1>Катя и Сережа!</h1>
     )
 }
 
