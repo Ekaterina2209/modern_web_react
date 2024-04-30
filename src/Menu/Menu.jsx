@@ -13,6 +13,8 @@ return (
       <li><Link to='5'>Лабораторная 5</Link></li>
       <li><Link to='6'>Лабораторная 6</Link></li>
       <li><Link to='7'>Лабораторная 7</Link></li>
+      <li><Link to='7'>Лабораторная 8</Link></li>
+      <li><Link to='7'>Лабораторная 9</Link></li>
     </ul>
   </aside>
   )

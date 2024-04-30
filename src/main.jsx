@@ -13,6 +13,8 @@ import Lab3 from './labs/lab3/Lab3.jsx'
 import Lab4 from './labs/lab4/Lab44.jsx'
 import Lab5 from './labs/lab5/Lab5.jsx'
 import Lab6 from './labs/lab6/Lab6.jsx'
+import Lab8 from './labs/lab8/Lab8.jsx'
+import Lab9 from './labs/lab9/Lab9.jsx'
 
 import {
     createBrowserRouter,
@@ -49,6 +51,14 @@ const router = createBrowserRouter([
             { 
                 path: '/6',
                 element: <Lab6></Lab6>
+            },
+            { 
+                path: '/8',
+                element: <Lab8></Lab8>
+            },
+            { 
+                path: '/9',
+                element: <Lab9></Lab9>
             },
             {
                 path: '/about',
