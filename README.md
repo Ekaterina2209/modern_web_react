@@ -1,4 +1,5 @@
 # React + Vite
+Работу выпонили: Хромушина Екатерина, Сементин Илья и Кузяков Сергей 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
